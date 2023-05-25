@@ -62,14 +62,14 @@ todos = {
 }
 
 fake_users_db = {
-    "TakumiFujiwara":{
+    1: {
         "username": "Takumi",
         "full_name": "Takumi Fujiwara",
         "email": "takumi@gmail.com",
         "hashed_password":"fakehashedsecret",
         "disabled": False
     },
-    "SeeleVolerei": {
+    2: {
         "username": "Seele",
         "full_name": "Seele Volerei",
         "email": "seele@gmail.com",
