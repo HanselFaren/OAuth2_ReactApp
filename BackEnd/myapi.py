@@ -62,14 +62,14 @@ todos = {
 }
 
 fake_users_db = {
-    1: {
+    "TakumiFujiwara":{
         "username": "Takumi",
         "full_name": "Takumi Fujiwara",
         "email": "takumi@gmail.com",
         "hashed_password":"fakehashedsecret",
         "disabled": False
     },
-    2: {
+    "SeeleVolerei": {
         "username": "Seele",
         "full_name": "Seele Volerei",
         "email": "seele@gmail.com",
@@ -77,6 +77,7 @@ fake_users_db = {
         "disabled": True
     }
 }
+
 
 class User(BaseModel):
     username: str
